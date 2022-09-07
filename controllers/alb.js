@@ -15,13 +15,16 @@ router.get("/home", (req, res) => {
 
 
 
-//Index 
+// //Index 
+// router.get('/', (req, res) => {
+//     Alb.find({}, (err, foundAlb) => {
+//         res.json(foundAlb)
+//     })
+// })
+Index 
 router.get('/', (req, res) => {
-    Alb.find({}, (err, foundAlb) => {
-        res.json(foundAlb)
-    })
+    res.send('Welcome!')
 })
-
 
 
 
