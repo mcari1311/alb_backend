@@ -5,9 +5,9 @@ const Alb = require('../models/alb')
 const albData = require('../utilities/data')
 
 
-router.get("/home", (req, res) => {
-    res.send('Index')
-})
+// router.get("/home", (req, res) => {
+//     res.send('Index')
+// })
 
 //INDUCES ! 
 
@@ -24,7 +24,7 @@ router.get("/home", (req, res) => {
 
 // Index 
 router.get('/', (req, res) => {
-    res.send('Welcome!')
+    res.send('Index!')
 })
 
 
