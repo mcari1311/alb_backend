@@ -5,9 +5,7 @@ const Alb = require('../models/alb')
 const albData = require('../utilities/data')
 
 
-// router.get("/home", (req, res) => {
-//     res.send('Index')
-// })
+
 
 //INDUCES ! 
 
@@ -16,16 +14,12 @@ const albData = require('../utilities/data')
 
 
 //Index 
-router.get('/', (req, res) => {
+router.get('/alb', (req, res) => {
     Alb.find({}, (err, foundAlb) => {
         res.json(foundAlb)
     })
 })
 
-// // Index 
-// router.get('/', (req, res) => {
-//     res.render('Index!')
-// })
 
 
 
