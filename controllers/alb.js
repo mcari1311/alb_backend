@@ -21,7 +21,8 @@ router.get("/home", (req, res) => {
 //         res.json(foundAlb)
 //     })
 // })
-Index 
+
+// Index 
 router.get('/', (req, res) => {
     res.send('Welcome!')
 })
