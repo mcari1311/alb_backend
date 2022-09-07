@@ -24,7 +24,7 @@ const albData = require('../utilities/data')
 
 // Index 
 router.get('/', (req, res) => {
-    res.send('Index!')
+    res.render('Index!')
 })
 
 
