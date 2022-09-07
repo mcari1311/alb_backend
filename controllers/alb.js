@@ -15,17 +15,17 @@ const albData = require('../utilities/data')
 
 
 
-// //Index 
-// router.get('/', (req, res) => {
-//     Alb.find({}, (err, foundAlb) => {
-//         res.json(foundAlb)
-//     })
-// })
-
-// Index 
+//Index 
 router.get('/', (req, res) => {
-    res.render('Index!')
+    Alb.find({}, (err, foundAlb) => {
+        res.json(foundAlb)
+    })
 })
+
+// // Index 
+// router.get('/', (req, res) => {
+//     res.render('Index!')
+// })
 
 
 
