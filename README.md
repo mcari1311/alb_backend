@@ -41,7 +41,7 @@ Since React handled the Create and Edit routes, the rest are handled here!
 
 ### List of Technologies Used
 * Javascript
-* CSS
+* CSS (bootstrap)
 
 
 ### Future Plans 
